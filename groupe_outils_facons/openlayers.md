@@ -21,10 +21,12 @@ Gestion des couches
 
 ###### OpenLayers prend en charge 
 
-kML 
-GEOJSON 
-Flux : WMS WSF 
-vecteur et raster 
+- kML 
+- GEOJSON 
+- WMS
+- WSF 
+- vecteur
+- raster 
 
 #####  Utilisation OpenLayers cote serveur :
 
