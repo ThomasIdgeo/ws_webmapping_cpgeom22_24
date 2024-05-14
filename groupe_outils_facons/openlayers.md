@@ -1,4 +1,5 @@
 # OPENLAYERS
+![](Logo_Geoserver.png)
 
 #### Description 
 OpenLayers est une bibliothèque JavaScript permettant d'afficher des données cartographiques dans les navigateurs Web sous forme de cartes glissantes
