@@ -1,6 +1,6 @@
 # Geoserveur
 
----
+
 
 ## Role
 
@@ -14,7 +14,7 @@ Serveur
 
 [Site internet](http://geoserver.org/)
 
----
+
 
 ## Description
 
