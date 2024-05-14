@@ -195,7 +195,7 @@ Un fichier CSS de mise en forme de la carte.
 > - Geopackage
 > - ...
 
-###### Il est également possible de permettre des trasactions sur un jeu de données:
+###### Il est également possible de permettre des transactions sur un jeu de données:
 > - CREATE, REPLACE, UPDATE, DELETE
 
 ###### PYGEOAPI utilise **Jinja** pour rendre des pages HTML et **Flask** pour les réponses HTTP rendues par l'API
