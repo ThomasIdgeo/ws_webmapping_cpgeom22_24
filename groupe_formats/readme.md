@@ -8,19 +8,22 @@
   *  #### <span style="color:#000080">STATIQUES</span>
 
 <div align=center>
-<span style="color:violet"> <b><i> png</b></i></span>
+<span style="color:violet"> <b><i> png </b></i></span>
+
 <img  src="29072.png" alt="image" height="50"> </div>
 
 Le Portable Network Graphics est un format ouvert d’images numériques, qui a été créé pour remplacer le format GIF, à l’époque propriétaire et dont la compression était soumise à un brevet. Le PNG est un format sans perte spécialement adapté pour publier des images simples comprenant des aplats de couleurs. Wikipédia
 
 <div align=center>
 <span style="color:violet"> <b><i> jpeg  </b></i></span>
+
 <img src=" jpeg.webp" alt="image" height="50"> </div>
 
 JPEG est une norme qui définit le format d'enregistrement et l'algorithme de décodage pour une représentation numérique compressée d'une image fixe. Wikipédia
 
 <div align=center>
 <span style="color:violet"> <b><i>geotiff  </b></i></span>
+
 <img src="geotiff.png" alt="image" height="50"></div>
 
 Standard du domaine public permettant d'ajouter des informations de géoréférencement à une image TIFF. L'enregistrement des métadonnées de géoréférencement utilise la possibilité offerte par le format TIFF de pouvoir définir de l'information additionnelle sous forme de tags spécifiques. Wikipédia
@@ -38,10 +41,11 @@ Le format COG est un geotiff spécialement organisé pour pourvoir être utilis�
 <div align=center>
 <span style="color:violet"> <b><i>mbtiles </b></i></span></div>
 
- est un format de tuiles cartographiques rasters et vectorielles. Il repose en fait sur une base de données SQLite qui permet de stocker toute une pyramide de tuiles en un seul fichier. Très utilisé pour des applications offline.
+ Est un format de tuiles cartographiques rasters et vectorielles. Il repose en fait sur une base de données SQLite qui permet de stocker toute une pyramide de tuiles en un seul fichier. Très utilisé pour des applications offline.
 
 <div align=center>
 <span style="color:violet"> <b><i>ecw </b></i></span>
+
 <img src="ecw.png" alt="image" height="50"></div>
 
 Est un format propriétaire ERDAS ER Mapper. Il s'agit d'une compression par ondelettes sans perte, semblable à JPEG 2000.
@@ -52,6 +56,7 @@ Est un format propriétaire ERDAS ER Mapper. Il s'agit d'une compression par ond
 
 <div align=center>
 <span style="color:violet"> <b><i>wms  </b></i></span>
+
 <img src="wms.gif" alt="image" height="70"> </div>
 
 Web Map Service ou WMS est un service standard qui permet d'obtenir des rasters de données géoréférencées à partir de différents serveurs de données.
@@ -59,10 +64,11 @@ Web Map Service ou WMS est un service standard qui permet d'obtenir des rasters 
 <div align=center>
 <span style="color:violet"> <b><i>wmts </b></i></span></div>
 
- est un service standard qui permet d'obtenir des rasters de données géoréférencées découper en plusieurs tuiles à partir de différents serveurs de données. 
+Est un service standard qui permet d'obtenir des rasters de données géoréférencées découper en plusieurs tuiles à partir de différents serveurs de données. 
 
 <div align=center>
 <span style="color:violet"> <b><i>wcs </b></i></span>
+
 <img src="wcs.webp" alt="image" height="50"> </div>
 
 Le Web Coverage Service Interface Standard (WCS) de l'OGC est un standard fournissant une interface permettant de télécharger des données de type couverture (modèle numérique de terrain, orthoimages, prévision numérique du temps).
@@ -79,13 +85,14 @@ Le Web Coverage Service Interface Standard (WCS) de l'OGC est un standard fourni
 
 <div align=center>
 <span style="color:violet"> <b><i>geojson </b></i></span>
+
 <img src="geojson.png" alt="image" height="50"> </div>
 
-permet d’encoder les structures classiques de données géographiques (point, lignes, surfaces), de manière très légère, tout en respectant la syntaxe objet JavaScript (JSON). C’est donc certainement le format le plus utilisé sur le web.
+Permet d’encoder les structures classiques de données géographiques (point, lignes, surfaces), de manière très légère, tout en respectant la syntaxe objet JavaScript (JSON). C’est donc certainement le format le plus utilisé sur le web.
 
 <div align=center>
 <span style="color:violet"> <b><i>topojson </b></i></span></div>
- est similaire à GeoJSON, mais stocke les données de manière topologique, et donc permet un gain de poids non négligeable pour des données jointes. Cependant, ce format est moins bien supporté par défaut.
+Est similaire à GeoJSON, mais stocke les données de manière topologique, et donc permet un gain de poids non négligeable pour des données jointes. Cependant, ce format est moins bien supporté par défaut.
 
 <div align=center>
 <span style="color:violet"> <b><i>gpx </b></i></span></div>
@@ -93,14 +100,18 @@ permet d’encoder les structures classiques de données géographiques (point, 
 
 <div align=center>
 <span style="color:violet"> <b><i>kml </b></i></span>
+
 <img src="kml.webp" alt="image" height="70"> </div>
 
 Le format KML est un standard international de données géographiques ouvert, proposé par Google et adopté par l'OGC (Open Geospatial Consortium) en 2007. C'est un langage basé sur le XML, adapté aux données géographiques. C'est le format de données géographiques utilisé dans Google Earth et Google Maps. 
 Les coordonnées sont exprimées en degrés décimaux (longitude et latitude, dans cet ordre) dans le système de référence WGS84 (EPSG:4326). Une couche KML est une couche géographique vectorielle de points, de polylignes ou de polygones.
 
 <div align=center>
-<span style="color:violet"> <b><i>wkt </b></i></span></div>
- est un format de représentation textuelle des géométries spatiales. Il existe une version binaire nommée WKB (Well-Known Binary).
+<span style="color:violet"> <b><i>wkt </b></i></span>
+
+<img src="wkt.png" alt="image" height="70"> </div>
+
+ Est un format de représentation textuelle des géométries spatiales. Il existe une version binaire nommée WKB (Well-Known Binary).
 
 <div align=center>
 <span style="color:violet"> <b><i>geoRSS </b></i></span></div>
@@ -112,6 +123,7 @@ Les coordonnées sont exprimées en degrés décimaux (longitude et latitude, da
 
 <div align=center>
 <span style="color:violet"> <b><i>shapefile </b></i></span>
+
 <img src="shp.png" alt="image" height="70"> </div>
 
 Ancien fichier propriétaire d’Esri devenu pendant longtemps le standard pour les données vecteurs. Le format possède de nombreuses contraintes telles qu’un poids limité et des longueurs de nom de champs limitées et autres.
@@ -130,6 +142,7 @@ Ancien fichier propriétaire d’Esri devenu pendant longtemps le standard pour 
 
 <div align=center>
 <span style="color:violet"> <b><i>wfs </b></i></span>
+
 <img src="wfs.jpg" alt="image" height="70"> </div>
 
 Service qui permet d’afficher et d'interroger les données vecteurs stockées sur un autre serveur.
@@ -148,12 +161,14 @@ Le WFS-T est une extension du service WFS (Web Feature Service), qui permet non 
 
 <div align=center>
  <span style="color:violet"> <b><i>csv </b></i></span>
+
  <img src="csv.jpg" alt="image" height="70"></div>
 
 fichier texte représentant des données tabulaires qui sépare chaque colonne par un caractère spécial type ‘,’ ou ‘;’
 
 <div align=center>
 <span style="color:violet"> <b><i>pdf </b></i></span>
+
 <img src="pdf.jpg" alt="image" height="70"> </div>
 
 Le PDF est un langage de description de page présenté devenu une norme ISO en 2008.
@@ -164,28 +179,26 @@ La spécificité du PDF est de préserver la mise en page d’un document — po
 <span style="color:violet"> <b><i>excel </b></i></span></div>
  format de tableur de open office
 
-<div align=center>
-<span style="color:violet"> <b><i>wkt </b></i></span>
-<img src="wkt.png" alt="image" height="70"> </div>
-
-WKT (Well-Known Text) est un format de représentation textuelle des géométries spatiales. Il existe une version binaire nommée WKB (Well-Known Binary).
 
 ## <span style="color:#F0970E"> Format de web </span>
 
 <div align=center>
 <span style="color:violet"> <b><i>html </b></i></span>
+
 <img src="html.png" alt="image" height="70"> </div>
 
   HyperText Markup Language  que l’on peut traduire par « langage de balises pour l'hypertexte » est utilisé afin de créer et de représenter le contenu d'une page web et sa structure. Il permet d’annoter du texte, des images et d'autres contenus afin de les afficher dans un navigateur web. D'autres technologies sont utilisées avec HTML pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript).
  
  <div align=center>
 <span style="color:violet"> <b><i>php </b></i></span> 
+
 <img src="PHP-logo.svg.png" alt="image" height="50"> </div>
 
 Hypertext Preprocessor est un langage de scripts généraliste et Open Source, spécialement conçu pour le développement d'applications web.
 
 <div align=center>
 <span style="color:violet"> <b><i>css </b></i></span>
+
 <img src="css.png" alt="image" height="50"> </div>
 
 Cascading Style Sheets ce qui signifie « feuille de style en cascade ».
