@@ -1,7 +1,9 @@
+# OPENLAYERS
+
 ###### Description 
 OpenLayers est une bibliothèque JavaScript permettant d'afficher des données cartographiques dans les navigateurs Web sous forme de cartes glissantes
 
-###### Caracteristiques : fonctionnement
+### Caracteristiques : fonctionnement
 
 Le principe est simple, pour afficher une carte avec Open Layer, il faut les éléments suivants :
 
@@ -12,29 +14,31 @@ Un fichier CSS de mise en forme de la carte.
 
 #### Les fonctionnalités
 
-Affichage de carte
-Gestion des interactions
-Ajout des données
-Controle de la carte 
-Gestion des couches
+- Affichage de carte
+- Gestion des interactions
+- Ajout des données
+- Controle de la carte 
+- Gestion des couches
 
 
-###### OpenLayers prend en charge 
+#### OpenLayers prend en charge 
 
-kML 
-GEOJSON 
-Flux : WMS WSF 
-vecteur et raster 
+- kML 
+- GEOJSON 
+- WMS
+- WSF 
+- vecteur
+- raster 
 
 #####  Utilisation OpenLayers cote serveur :
 
-Generation des tuiles cartographiques
-Integration avec des services web
-Stockage et gestion des données géographiques
+- Generation des tuiles cartographiques
+- Integration avec des services web
+- Stockage et gestion des données géographiques
 
 #####  Utilisation OpenLayers cote client :
 
-Intégration dans une page web
-personnalisation de la carte
-gestion des interactions 
+- Intégration dans une page web
+- personnalisation de la carte
+- gestion des interactions 
 
