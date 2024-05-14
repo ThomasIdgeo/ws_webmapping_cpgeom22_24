@@ -1,12 +1,21 @@
 <p align="center" width="100%">
-    <img width="33%" src="https://leafletjs.com/docs/images/logo.png">
+    <img width="50%" src="https://leafletjs.com/docs/images/logo.png">
 </p>
 <h2>Définition:</h2>
+<p align="center" width="100%">
+<img width="10%" src="https://cdn-icons-gif.flaticon.com/6454/6454106.gif">
+</p>
 <strong>Bibiliothèque Javascript</strong> Open Source édité par Volodymyr Agafonkin dédié à l'affichage de sites cartographiques. De nombreux contributeurs sont également à l'initiative de nouvelles fonctionnalités.
 <h2>Historique:</h2>
+<p align="center" width="100%">
+<img width="10%" src="https://cdn-icons-gif.flaticon.com/7211/7211797.gif">
+</p>
 Cette bibliothèque a été développé à partir de 2008.
 La bibliothèque utilise de format geoJson pour afficher les données depuis 2013.
 <h2>Fonctionnalités:</h2>
+<p align="center" width="100%">
+<img width="10%" src="https://cdn-icons-gif.flaticon.com/6416/6416394.gif">
+</p>
 Cette bibliothèque supporte les calques 
 <li><strong>GeoJson</li> 
 <li>Les flux raster WMS/WMTS </strong></li>
