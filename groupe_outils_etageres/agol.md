@@ -46,4 +46,31 @@ ArcGIS Instant Apps appartient à la nouvelle génération d’applications de c
 Instant Apps inclut une bibliothèque de modèles d’application sans code et une option de configuration rapide lorsque vous voulez personnaliser l’application. Chaque modèle d’application répond un but spécifique, comme afficher une carte ou une scène, comparer des contenus, calculer un itinéraire, explorer une bibliothèque de contenu ou rechercher quelque chose à proximité. Compatible avec les dernières fonctionnalités de Map Viewer, ces modèles sont également optimisés pour les appareils mobiles, prennent en charge plusieurs langues et sont conçus pour utiliser les technologies d’assistance.
 
 - ArcGis Experience Builder :
-ArcGIS Experience Builder est une solution hautement configurable dédiée à la création d’applications Web percutantes sans écrire de code. Choisissez un modèle et créez une expérience Web immersive pour votre public en unifiant des cartes Web, des applications, des pages, des widgets interconnectés et des données aussi bien 2D que 3D à travers une interface flexible de type glisser-déposer. Configurez l’apparence de votre application Web sur différentes tailles d’écran et déployez-la dans votre organisation ou pour le public. Concevez des widgets, thèmes et actions personnalisés avec un développement nécessitant peu de code pour étendre davantage votre application Web.  
+ArcGIS Experience Builder est une solution hautement configurable dédiée à la création d’applications Web percutantes sans écrire de code. Choisissez un modèle et créez une expérience Web immersive pour votre public en unifiant des cartes Web, des applications, des pages, des widgets interconnectés et des données aussi bien 2D que 3D à travers une interface flexible de type glisser-déposer. Configurez l’apparence de votre application Web sur différentes tailles d’écran et déployez-la dans votre organisation ou pour le public. Concevez des widgets, thèmes et actions personnalisés avec un développement nécessitant peu de code pour étendre davantage votre application Web.
+
+### Collaborer avec des collègues
+
+Travailler efficacement dans l’ensemble de l’organisation en concevant et en utilisant des cartes
+
+**Logiciel de cartographie multi-utilisateur sécurisé**
+
+Collaborez avec vos collègues dans des équipes de toutes tailles dans l’ensemble de votre organisation. Les utilisateurs bénéficient d’un accès simple et sécurisé aux données, cartes et applications dont ils ont besoin pour mener à bien leur travail. Chaque abonnement à ArcGIS Online est géré par son administrateur qui détermine l’accès et les privilèges.
+
+**Travailler en équipe avec des milliers d’utilisateurs**
+
+ArcGIS Online est conçu pour les entreprises, ce qui signifie qu’il répond aux besoins en matière de sécurité, d’authentification, de confidentialité et de gestion des utilisateurs des grandes organisations. Mettez l’intelligence géographique au service de l’ensemble de votre organisation grâce à ce logiciel de cartographie multi-utilisateur sécurisé.
+
+**Collaborer avec des collègues à travers l’entreprise**
+
+Dans une organisation, les personnes occupent de nombreux rôles différents et exécutent une variété de tâches. Certains conçoivent des produits d’information géographique tandis que d’autres les consultent. Les types d’utilisateurs, qui sont les éléments constitutifs des abonnements ArcGIS Online, vous permettent d’attribuer aux membres d’une équipe les fonctionnalités et applications dont ils ont besoin pour mener à bien leur travail.
+
+### Analyser vos données
+
+Appréhendez vos données dans un contexte géographique à l’aide d’outils d’analyse intuitifs. Révélez les relations, identifiez les principales localisations, utilisez les meilleurs itinéraires et analysez les modèles pour établir des prévisions. Apportez un contexte utile à vos données en les associant aux données démographiques et de mode de vie d’Esri.
+
+**Comprendre vos données**
+
+L’analyse est un processus itératif. L’affichage de vos résultats dans une carte interactive permet d’ajuster et d’adapter facilement votre analyse jusqu’à ce que vous obteniez les réponses dont vous avez besoin.
+- Analyser les modèles pour formuler des prévisions et déterminer les étapes à suivre
+- Identifier les relations et les points aberrants dans vos données
+- Associer des données stockées à différents endroits ou ajouter un contexte de localisation à vos données
