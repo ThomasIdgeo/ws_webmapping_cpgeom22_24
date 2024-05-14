@@ -4,7 +4,7 @@
 
 
 
-> ###### Il est possible de diffuser des données dans plusieurs formats tels que:
+###### Il est possible de diffuser des données dans plusieurs formats tels que:
 >
 > - CSV
 > - GeoJSON
@@ -13,7 +13,7 @@
 > - Des données présentes dans une base de données PostgreSQl,MongoDB, Oracle
 > - Geopackage
 
-> ###### Il est également possible de permettre des trasactions sur un jeu de données:
+###### Il est également possible de permettre des trasactions sur un jeu de données:
 > - CREATE, REPLACE, UPDATE, DELETE
 
 ###### PYGEOAPI utilise **Jinja** pour rendre des pages HTML et **Flask** pour les réponses HTTP rendues par l'API
