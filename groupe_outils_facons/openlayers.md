@@ -41,4 +41,3 @@ Un fichier CSS de mise en forme de la carte.
 - Intégration dans une page web
 - personnalisation de la carte
 - gestion des interactions 
-

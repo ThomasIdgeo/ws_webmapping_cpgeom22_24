@@ -124,7 +124,7 @@ GeoServer est un serveur informatique4 open source et libre écrit en Java qui p
 
 ![](/ressources/mapbox_logo.png)
 
-**Mapbox GL JS** est une librairie Javascript pour la diffusion de cartes sur le web.
+**Mapbox GL JS** ([Site web](https://www.mapbox.com/mapbox-gljs)) est une librairie Javascript pour la diffusion de cartes sur le web.
 ## Les formats de données acceptés sont:
 - Tuiles vectorielles
 - Tuiles raster
@@ -195,7 +195,7 @@ Un fichier CSS de mise en forme de la carte.
 > - Geopackage
 > - ...
 
-###### Il est également possible de permettre des trasactions sur un jeu de données:
+###### Il est également possible de permettre des transactions sur un jeu de données:
 > - CREATE, REPLACE, UPDATE, DELETE
 
 ###### PYGEOAPI utilise **Jinja** pour rendre des pages HTML et **Flask** pour les réponses HTTP rendues par l'API
