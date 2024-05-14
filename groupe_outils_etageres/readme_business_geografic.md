@@ -1,7 +1,14 @@
+![Business Geografic](../ressources/bg.png)
+
 # GEO Générateur
 Le GEO Générateur de Business Geografic permet de générer rapidement des propres cartes et applications cartographiques HTML5 personnalisées, pour tous publics, sur tous supports, à partir de toutes données géographiques et métier.
 Il propose à ses utilisateurs une avance technologique permanente et parfaitement conforme aux recommandations CNIG, OGC et INSPIRE pour la gestion des données et métadonnées.
+
+![GEO Générateur](../ressources/geo.png)
+
 Les données, fonctionnalités, cartes et applications sont des ressources GEO, centralisées au sein d'un catalogue de ressources GEO. Elles sont utilisables dans toutes les applications GEO ainsi que celles des collaborateurs et partenaires avec qui elles sont partagés.
+
+![Menu](../ressources/menu.png)
 
 ## Référencez vos données
 
