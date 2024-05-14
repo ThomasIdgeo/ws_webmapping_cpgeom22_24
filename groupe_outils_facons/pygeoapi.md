@@ -12,6 +12,7 @@
 > - Des tuiles raster et vectorielles
 > - Des données présentes dans une base de données PostgreSQl,MongoDB, Oracle
 > - Geopackage
+> - ...
 
 ###### Il est également possible de permettre des trasactions sur un jeu de données:
 > - CREATE, REPLACE, UPDATE, DELETE
