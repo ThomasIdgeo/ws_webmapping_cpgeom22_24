@@ -21,7 +21,7 @@ Un fichier CSS de mise en forme de la carte.
 - Gestion des couches
 
 
-###### OpenLayers prend en charge 
+#### OpenLayers prend en charge 
 
 - kML 
 - GEOJSON 
