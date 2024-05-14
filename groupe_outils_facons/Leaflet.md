@@ -1,5 +1,6 @@
-![Image](https://leafletjs.com/docs/images/logo.png)
-
+<p align="center" width="100%">
+    <img width="33%" src="https://leafletjs.com/docs/images/logo.png">
+</p>
 <h2>Définition:</h2>
 <strong>Bibiliothèque Javascript</strong> Open Source édité par Volodymyr Agafonkin dédié à l'affichage de sites cartographiques. De nombreux contributeurs sont également à l'initiative de nouvelles fonctionnalités.
 <h2>Historique:</h2>
