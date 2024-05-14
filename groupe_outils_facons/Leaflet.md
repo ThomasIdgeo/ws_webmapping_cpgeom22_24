@@ -11,7 +11,7 @@ Cette bibliothèque supporte les calques
 <li>Les flux raster WMS/WMTS </strong></li>
 ainsi que les données vectorielles 
 <li><strong>WFS/PostGis/Shape</strong></li>
-De nombreux <strong>plugins</strong> enrichisse également les fonctionnalités de base, comme l'affichage de:
+De nombreux <strong>plugins</strong> enrichissent également les fonctionnalités de base, comme l'affichage de:
 <li><strong>GeoTiff</li>
 <li>CSV</li>
 <li>Excel</li>
