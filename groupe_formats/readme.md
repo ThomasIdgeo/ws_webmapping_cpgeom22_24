@@ -89,7 +89,7 @@ La spécificité du PDF est de préserver la mise en page d’un document — po
 <span style="color:violet"> **_html :_**</span>  HyperText Markup Language  que l’on peut traduire par « langage de balises pour l'hypertexte » est utilisé afin de créer et de représenter le contenu d'une page web et sa structure. Il permet d’annoter du texte, des images et d'autres contenus afin de les afficher dans un navigateur web. D'autres technologies sont utilisées avec HTML pour décrire la présentation d'une page (CSS) et/ou ses fonctionnalités interactives (JavaScript).
  
 <span style="color:violet"> **_php :_**</span> 
-![](C:\Users\CP10\AppData\Local\Programs\Git\git_work\ws_webmapping_cpgeom22_24\groupe_formats\PHP-logo.svg.png)
+![](PHP-logo.svg.png)
 Hypertext Preprocessor est un langage de scripts généraliste et Open Source, spécialement conçu pour le développement d'applications web.
 
 <span style="color:violet"> **_css :_**</span>   Cascading Style Sheets ce qui signifie « feuille de style en cascade ».
