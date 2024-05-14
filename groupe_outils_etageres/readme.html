@@ -1,6 +1,122 @@
-<h1 id="arcgis-online-arcgis-online">ArcGis Online <img
-src="../ressources/arcgis_logo.png" alt="ArcGis Online" /></h1>
-<h2 id="présentation-darcgis-online">Présentation d’ArcGis Online</h2>
+<h1 id="workshop-webmapping">Workshop Webmapping</h1>
+<p><em>Les outils &amp; produits à étagères</em></p>
+<section id="lizmap" data-align="center">
+<h1>1 - <a
+href="https://docs.lizmap.com/current/fr/index.html">LizMap</a></h1>
+<p><img src="https://docs.lizmap.com/current/fr/_static/logo.png"></p>
+<p>Important : La version de Lizmap Web Client requiert</p>
+<em>Firefox ≥ 63</em> ; <em>Edge ≥ 79</em> ; <em>Chromium ≥ 54</em>
+</section>
+<hr>
+<p>LizMap est une application web cartographique <b><em>OpenSource</em>
+</b> développée par la société 3Liz qui fonctionne soit sur Apache soit
+sur Nginx. C’est une application écrite en PHP.</p>
+<p>Elle utilise QGIS Serveur pour diffuser ses données en lien
+WMS/WMTS.</p>
+<p>L’application LizMap reflète le projet QGIS conçu. C’est à dire, que
+lorsque le projet est bien paramétré, nous retrouvons exactement la même
+cartographie que dans QGIS. Pour une optimisation de l’utilisation de
+LizMap, il faut que la version de QGIS soit la même que la version de
+QGIS Server. Par exemple, si l’on utilise la version 3.28 de QGIS, QGIS
+Serveur doit être en 3.28.</p>
+<p>L’installation de LizMap est disponible en ligne de commande ou via
+docker.</p>
+La légende affichée dans le navigateur web respecte l’ordre et
+l’organisation définie dans QGIS.
+<hr>
+<h3 id="configuration-des-cartes-dans-qgis">Configuration des cartes
+dans QGIS</h3>
+<hr>
+<p>Lors de la création d’un projet QGIS que nous voulons diffuser dans
+LizMap, la configuration dans QGIS permet de faire :</p>
+<ul>
+<li><p>Ordre et structure de la légende</p></li>
+<li><p>Symbologie des couches</p></li>
+<li><p>Carte de situation grâce à la présence d’un groupe
+Overview</p></li>
+<li><p>Configuration des templates d’impression via les
+composeurs</p></li>
+</ul>
+<p><em>Attention, le projet QGIS doit être enregistré au format qgs et
+non qgz comme par défaut</em></p>
+<hr>
+<h3 id="plugin-lizmap">Plugin LizMap</h3>
+<hr>
+<p>Le plugin LizMap est téléchargeable dans les <strong>extensions de
+QGIS</strong>. Lors de son installation et après avoir bien installé le
+LizMap web client disponible sur Github, il suffit de paramétrer
+l’adresse IP et on peut commencer à configurer le projet pour qu’il soit
+disponible en ligne. Dans le plugin LizMap, il est possible de :</p>
+<ul>
+<li><p>préciser le nom des couches et des groupes dans l’interface
+Web</p></li>
+<li><p>regrouper les couches en une seule couche WMS</p></li>
+<li><p>définir certaines couches comme couche de fond</p></li>
+<li><p>définir le système d’affichage : image seule ou ensemble de
+tuile</p></li>
+<li><p>définir la durée de vie de l’image dans le cache</p></li>
+<li><p>définir la durée de vie d’une image sur le réseau</p></li>
+<li><p>définir les popups d’interrogation des couches</p></li>
+<li><p>définir un lien vers la fiche de métadonnées</p></li>
+<li><p>définir les échelles de consultation de la carte</p></li>
+<li><p>définir les outils accessibles avec la carte :</p></li>
+<li><p>impressions</p></li>
+<li><p>mesures de longueurs, surfaces et périmètres</p></li>
+<li><p>utilisation de la géolocalisation de l’utilisateur (GPS)</p></li>
+<li><p>recherche d’adresse dans OpenStreetMap, Google ou Géoportail
+IGN</p></li>
+<li><p>Définir les fonds de plan externe :</p></li>
+<li><ul>
+<li>Google Maps</li>
+</ul></li>
+<li><ul>
+<li>Bing Maps</li>
+</ul></li>
+<li><ul>
+<li>OpenStreetMap</li>
+</ul></li>
+<li><ul>
+<li>Géoportail IGN</li>
+</ul></li>
+<li><p>Définir les couches servant de raccourci de navigation :</p></li>
+<li><ul>
+<li>recherche dans le champ d’une couche</li>
+</ul></li>
+<li><ul>
+<li>zoom sur l’élément sélectionné</li>
+</ul></li>
+<li><ul>
+<li>recherche en cascade au sein de la même couche via 2 attributs ou
+entre couches jointes</li>
+</ul></li>
+</ul>
+<hr>
+<h3 id="autres-possibilités">Autres possibilités</h3>
+<hr>
+<p>Dans LizMap, il est possible d’ajouter ses propres actions. L’ajout
+de cette fonctionnalité permet d’aller interroger directement en
+ajoutant un fichier .actions dans la structure de l’installation du
+code. Cela permet d’aller interroger la base de données PostgreSQL et de
+faire apparaître les géométries sélectionnées. Par exemple, on peut
+sélectionner un certain nombre de bâtiments qui sont à 1 kilomètre à vol
+d’oiseau d’un bureau de poste.</p>
+<p>Pour des actions plus avancées, il est possible d’ajouter son propre
+JavaScript qui en fonction des identifiants des couches QGIS, permet
+d’interroger celles ci.</p>
+<p>On peut aussi faire des filtres en fonction de l’utilisateur qui se
+connecte. Par exemple si, un utilisateur veut voir uniquement les
+données de sa commune plutôt que toutes les données de son département,
+il pourra les apercevoir avec un filtre spatial conçu récemment.</p>
+<hr>
+<h3 id="architecture-lizmap"><a
+href="https://docs.lizmap.com/current/fr/introduction.html">Architecture
+LizMap</a></h3>
+<hr>
+<p><img src="https://docs.lizmap.com/current/fr/_images/architecture.jpg" ></p>
+<h1 id="arcgis-online">2 - <a
+href="https://www.arcgis.com/index.html">ArcGis Online !</a></h1>
+<p><a href="../ressources/arcgis_logo.png">ArcGis Online</a></p>
+<h3 id="présentation-darcgis-online">Présentation d’ArcGis Online</h3>
 <p>ArcGIS Online est une solution d’analyse et de cartographie basée sur
 le cloud. Utilisez-la pour créer des cartes, analyser des données et
 partager et collaborer. Accédez à des applications propres aux
@@ -9,8 +125,9 @@ vous permettent d’être mobile sur le terrain. Vos données et cartes sont
 stockées dans une infrastructure privée et sécurisée et peuvent être
 adaptées à vos exigences en matière de cartographie et
 d’informatique.</p>
-<h2 id="les-fonctionnalités-darcgis-online">Les fonctionnalités d’ArcGis
-Online</h2>
+<hr>
+<h3 id="les-fonctionnalités-darcgis-online">Les fonctionnalités d’ArcGis
+Online</h3>
 <h3 id="créer-des-cartes">Créer des cartes</h3>
 <p>Les cartes interactives créent des expériences immersives qui se
 détachent des vues statiques et donnent aux utilisateurs la possibilité
@@ -147,123 +264,13 @@ besoin. - Analyser les modèles pour formuler des prévisions et
 déterminer les étapes à suivre - Identifier les relations et les points
 aberrants dans vos données - Associer des données stockées à différents
 endroits ou ajouter un contexte de localisation à vos données</p>
-<h1 id="workshop-webmapping">Workshop Webmapping</h1>
-<p><em>Les outils &amp; produits à étagères</em></p>
-<section id="lizmap" data-align="center">
-<h2>1 - LizMap</h2>
-<p><img src="https://docs.lizmap.com/current/fr/_static/logo.png"></p>
-<p>Important : La version de Lizmap Web Client requiert</p>
-<em>Firefox ≥ 63</em> ; <em>Edge ≥ 79</em> ; <em>Chromium ≥ 54</em>
-</section>
-<hr>
-<p>LizMap est une application web cartographique <b><em>OpenSource</em>
-</b> développée par la société 3Liz qui fonctionne soit sur Apache soit
-sur Nginx. C’est une application écrite en PHP.</p>
-<p>Elle utilise QGIS Serveur pour diffuser ses données en lien
-WMS/WMTS.</p>
-<p>L’application LizMap reflète le projet QGIS conçu. C’est à dire, que
-lorsque le projet est bien paramétré, nous retrouvons exactement la même
-cartographie que dans QGIS. Pour une optimisation de l’utilisation de
-LizMap, il faut que la version de QGIS soit la même que la version de
-QGIS Server. Par exemple, si l’on utilise la version 3.28 de QGIS, QGIS
-Serveur doit être en 3.28.</p>
-<p>L’installation de LizMap est disponible en ligne de commande ou via
-docker.</p>
-La légende affichée dans le navigateur web respecte l’ordre et
-l’organisation définie dans QGIS.
-<hr>
-<h3 id="configuration-des-cartes-dans-qgis">Configuration des cartes
-dans QGIS</h3>
-<hr>
-<p>Lors de la création d’un projet QGIS que nous voulons diffuser dans
-LizMap, la configuration dans QGIS permet de faire :</p>
-<ul>
-<li><p>Ordre et structure de la légende</p></li>
-<li><p>Symbologie des couches</p></li>
-<li><p>Carte de situation grâce à la présence d’un groupe
-Overview</p></li>
-<li><p>Configuration des templates d’impression via les
-composeurs</p></li>
-</ul>
-<p><em>Attention, le projet QGIS doit être enregistré au format qgs et
-non qgz comme par défaut</em></p>
-<hr>
-<h3 id="plugin-lizmap">Plugin LizMap</h3>
-<hr>
-<p>Le plugin LizMap est téléchargeable dans les <strong>extensions de
-QGIS</strong>. Lors de son installation et après avoir bien installé le
-LizMap web client disponible sur Github, il suffit de paramétrer
-l’adresse IP et on peut commencer à configurer le projet pour qu’il soit
-disponible en ligne. Dans le plugin LizMap, il est possible de :</p>
-<ul>
-<li><p>préciser le nom des couches et des groupes dans l’interface
-Web</p></li>
-<li><p>regrouper les couches en une seule couche WMS</p></li>
-<li><p>définir certaines couches comme couche de fond</p></li>
-<li><p>définir le système d’affichage : image seule ou ensemble de
-tuile</p></li>
-<li><p>définir la durée de vie de l’image dans le cache</p></li>
-<li><p>définir la durée de vie d’une image sur le réseau</p></li>
-<li><p>définir les popups d’interrogation des couches</p></li>
-<li><p>définir un lien vers la fiche de métadonnées</p></li>
-<li><p>définir les échelles de consultation de la carte</p></li>
-<li><p>définir les outils accessibles avec la carte :</p></li>
-<li><p>impressions</p></li>
-<li><p>mesures de longueurs, surfaces et périmètres</p></li>
-<li><p>utilisation de la géolocalisation de l’utilisateur (GPS)</p></li>
-<li><p>recherche d’adresse dans OpenStreetMap, Google ou Géoportail
-IGN</p></li>
-<li><p>Définir les fonds de plan externe :</p></li>
-<li><ul>
-<li>Google Maps</li>
-</ul></li>
-<li><ul>
-<li>Bing Maps</li>
-</ul></li>
-<li><ul>
-<li>OpenStreetMap</li>
-</ul></li>
-<li><ul>
-<li>Géoportail IGN</li>
-</ul></li>
-<li><p>Définir les couches servant de raccourci de navigation :</p></li>
-<li><ul>
-<li>recherche dans le champ d’une couche</li>
-</ul></li>
-<li><ul>
-<li>zoom sur l’élément sélectionné</li>
-</ul></li>
-<li><ul>
-<li>recherche en cascade au sein de la même couche via 2 attributs ou
-entre couches jointes</li>
-</ul></li>
-</ul>
-<hr>
-<h3 id="autres-possibilités">Autres possibilités</h3>
-<hr>
-<p>Dans LizMap, il est possible d’ajouter ses propres actions. L’ajout
-de cette fonctionnalité permet d’aller interroger directement en
-ajoutant un fichier .actions dans la structure de l’installation du
-code. Cela permet d’aller interroger la base de données PostgreSQL et de
-faire apparaître les géométries sélectionnées. Par exemple, on peut
-sélectionner un certain nombre de bâtiments qui sont à 1 kilomètre à vol
-d’oiseau d’un bureau de poste.</p>
-<p>Pour des actions plus avancées, il est possible d’ajouter son propre
-JavaScript qui en fonction des identifiants des couches QGIS, permet
-d’interroger celles ci.</p>
-<p>On peut aussi faire des filtres en fonction de l’utilisateur qui se
-connecte. Par exemple si, un utilisateur veut voir uniquement les
-données de sa commune plutôt que toutes les données de son département,
-il pourra les apercevoir avec un filtre spatial conçu récemment.</p>
-<hr>
-<h3 id="architecture-lizmap">Architecture LizMap</h3>
-<hr>
-<p><img src="https://docs.lizmap.com/current/fr/_images/architecture.jpg" ></p>
 <figure>
 <img src="../ressources/bg.png" alt="Business Geografic" />
 <figcaption aria-hidden="true">Business Geografic</figcaption>
 </figure>
-<h1 id="geo-générateur">GEO Générateur</h1>
+<h1 id="geo-générateur">3 - <a
+href="https://www.business-geografic.com/fr/geo-software/geo-technologies.html">GEO
+Générateur</a></h1>
 <p>Le GEO Générateur de Business Geografic permet de générer rapidement
 des propres cartes et applications cartographiques HTML5 personnalisées,
 pour tous publics, sur tous supports, à partir de toutes données
@@ -376,7 +383,7 @@ partager vos applications cartographiques GEO avec vos collègues,
 homologues et partenaires, pour mutualiser vos ressources et développer
 l’entraide. GEO assure une gestion fine des droits de vos utilisateurs
 et groupes d’utilisateurs sur vos ressources GEO partagées.</p>
-<h2 id="mviewer">Mviewer</h2>
+<h1 id="mviewer">4 - <a href="https://fr.pornhub.com/">Mviewer</a></h1>
 <h2 id="présentation-de-solutions">Présentation de solutions</h2>
 <p>mviewer est un Visualiseur géographique basé sur OpenLayers 6.3.1 et
 Bootstrap 3.3.6.</p>
@@ -397,4 +404,43 @@ les diffuser sur vos sites institutionnels et sur tous les supports.</p>
 <p>Mviewer est une application web développée en HTML / CSS /
 JAVASCRIPT. Elle nécessite simplement d’être déployée sur un serveur WEB
 qui peut être APACHE, NGINX, TOMCAT</p>
-<h2 id="section"></h2>
+<h2 id="documentation">Documentation</h2>
+<p>https://mviewerdoc.readthedocs.io/fr/v3.6.1/index.html#</p>
+<h2 id="exemple-sur-lusage">Exemple sur l’usage</h2>
+<p>kartenn Region Bretagne :</p>
+<p>https://kartenn.region-bretagne.fr/territoires/</p>
+<p>Plan Local d’Urbanisme Intercommunal de l’Albigeois</p>
+<p>https://carto.ic2a.net/index_4_apps.html?config=apps/plui.xml</p>
+<h1 id="sogefi">5 - SOGEFI</h1>
+<p><img src="https://www.sogefigroup.com/static/upload/sog/sogefi-group.gif" /></p>
+<h1 id="vmap">6 - VMAP</h1>
+<p><img src="https://sig.agglopole.fr/images/vmap.png"></p>
+<p>vMap2 est une application web qui permet de représenter, gérer et
+éditer les données localisées (géospatiales) des entreprises et
+organisations de manière compatible avec leur système d’information.</p>
+<p>Elle est exploitée dans de nombreux secteurs d’activité :</p>
+<p>Travaux publics pour visualiser l’état des réseaux d’éclairage public
+et gérer les interventions, Collectivités locales pour fournir des
+informations sur la propriété foncière aux citoyens,<br />
+Producteurs d’énergie pour prioriser les zones de production
+photovoltaïques Transport pour gérer des voies cyclables au niveau
+national Producteurs de données pour commercialiser une offre de
+service</p>
+<p>vMap2 s’appuie sur une pile logicielle complète fournissant des
+solutions pour le stockage, l’édition et le calcul en mode on-premise ou
+bien dans le cloud AWS : PostgreSQL, PostGIS, MapServer, Angular,
+PHP…</p>
+<p>Grâce à la plateforme d’intégration de données FME (Safe Software),
+vMap2 s’interface naturellement avec votre Système d’Information
+d’entreprise et peut exploiter toutes les sources de données de votre
+organisation : Oracle, MySQL, SQLServer, Excel, Text, XML…</p>
+<h3 id="que-faire-avec-vmap2">Que faire avec vMap2 ?</h3>
+<p>Publiez sous forme de carte l’emplacement de votre patrimoine, de vos
+clients, de vos prospects… Editez vos données en créant des formulaires
+de saisie personnalisés Exploitez des sources de données libres (OSM,
+IGN…) comme fond de carte Recherchez une adresse, un lieu-dit, une
+commune Développez et commercialisez un service pour votre métier</p>
+<h3 id="sécurisé-par-conception">Sécurisé par conception</h3>
+<p>La sécurité est à la base de la conception de vMap2.</p>
+<p>La fiabilité de l’application est régulièrement soumise à des tests
+d’intrusion par des structures indépendantes.</p>
